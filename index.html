@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light top">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><img class="logo" src="logo.png"></a>
+      </div>
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <button type="button" class="btn btn-primary mb-6">Login</button>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+  </nav><br><br>
+  <div class="container">
+    <form class="form-horizontal-dark" role="form">
+      <h2>Registration</h2>
+      <div class="form-group input-group">
+        <label for="firstName" class="col-sm-3 control-label">First Name</label>
+        <div class="col-sm-9">
+          <input type="text" id="firstName" placeholder="First Name" class="form-control" autofocus>
+        </div>
+      </div>
+      <div class="form-group input-group">
+        <label for="lastName" class="col-sm-3 control-label">Last Name</label>
+        <div class="col-sm-9">
+          <input type="text" id="lastName" placeholder="Last Name" class="form-control" autofocus>
+        </div>
+      </div>
+      <div class="form-group input-group">
+        <label for="email" class="col-sm-3 control-label">Email* </label>
+        <div class="col-sm-9">
+          <input type="email" id="email" placeholder="Email" class="form-control" name="email">
+        </div>
+      </div>
+      <div class="form-group input-group">
+        <label for="password" class="col-sm-3 control-label">Password*</label>
+        <div class="col-sm-9">
+          <input type="password" id="password" placeholder="Password" class="form-control">
+        </div>
+      </div>
+      <div class="form-group input-group">
+        <label for="password" class="col-sm-3 control-label">Confirm Password*</label>
+        <div class="col-sm-9">
+          <input type="password" id="password" placeholder="Password" class="form-control">
+        </div>
+      </div>
+      <div class="form-group input-group">
+        <label for="birthDate" class="col-sm-3 control-label">Date of Birth*</label>
+        <div class="col-sm-9">
+          <input type="date" id="birthDate" class="form-control">
+        </div>
+      </div>
+
+      <div class="form-group input-group">
+        <label for="phoneNumber" class="col-sm-3 control-label">Phone Number</label>
+        <div class="col-sm-9">
+          <select class="custom-select" style="max-width: 120px;">
+            <option selected="">+91</option>
+            <option value="1">+972</option>
+            <option value="2">+198</option>
+            <option value="3">+701</option>
+            <option value="4">+861</option>
+            <option value="5">+412</option>
+            <option value="6">+536</option>
+          </select>
+
+          <input name="" class="form-control" placeholder="Phone number" type="text">
+        </div>
+      </div>
+      <div class="form-group input-group">
+        <label for="jobType" class="col-sm-3 control-label">Job Type</label>
+        <div class="col-sm-9">
+          <select class="form-control">
+            <option selected=""> Select job type</option>
+            <option>Designer</option>
+            <option>Manager</option>
+            <option>Accaunting</option>
+          </select>
+        </div>
+      </div> 
+      <div class="form-group input-group">
+        <label for="city" class="col-sm-3 control-label">Current City</label>
+        <div class="col-sm-9">
+          <input type="text" id="height" placeholder="Please write your current city" class="form-control">
+        </div>
+      </div>
+
+      <div class="form-group input-group">
+        <label for="connection" class="col-sm-3 control-label">Number of Connection</label>
+        <div class="col-sm-9">
+          <input type="number" id="connection" placeholder="Please write your number of connection"
+            class="form-control">
+        </div>
+      </div>
+      <div class="form-group input-group">
+        <label for="about" class="col-sm-3 control-label">Headline or Summary</label>
+        <div class="col-sm-9">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"
+            placeholder="Please write your headline or summary"></textarea>
+        </div>
+      </div>
+      <div class="form-group input-group">
+        <label for="about" class="col-sm-3 control-label">About Me</label>
+        <div class="col-sm-9">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+            placeholder="Please write your self"></textarea>
+        </div>
+      </div>
+      <div class="form-group input-group">
+        <label for="hobbies" class="col-sm-3 control-label">My Hobbies</label>
+        <div class="col-sm-9">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"
+            placeholder="Please write your hobbies"></textarea>
+        </div>
+      </div>
+      <div class="form-group input-group">
+        <label for="profile" class="col-sm-3 control-label">Upload your Resume</label>
+        <div class="col-sm-9">
+          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+      </div>
+      <div class="form-group input-group">
+        <label for="inputAddress" class="col-sm-3 control-label">Address</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+      </div>
+      <div class="form-group input-group">
+        <label for="inputAddress2" class="col-sm-3 control-label">Address 2</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+      </div>
+      
+        <div class="form-row form-group input-group">
+          <div class="form-group col-md-6">
+            <label for="inputCity" class="col-sm-3 control-label">City</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="city">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState" class="col-sm-3 control-label">State</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>UP</option>
+            <option>MP</option>
+            <option>Delhi</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip" class="col-sm-3 control-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip" placeholder="zip">
+          </div>
+        </div>
+
+        <div class="form-group input-group">
+          <label for="course" class="col-sm-3 control-label">Course</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="course" placeholder="Please enter your Course Name">
+          </div>
+        </div>
+        <div class="form-group input-group">
+          <label for="university" class="col-sm-3 control-label">University/ Board</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="university" placeholder="Please enter your University Name">
+          </div>
+        </div>
+        <div class="form-group input-group">
+          <label for="university" class="col-sm-3 control-label">Insitute / School</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="university" placeholder="Please enter your Insitute Name">
+          </div>
+        </div>
+        <div class="form-group input-group">
+          <label for="university" class="col-sm-3 control-label">Score (in Per / CGPA)</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="university" placeholder="Please Enter your score"> 
+          </div>
+        </div>
+        <div class="form-group input-group">
+          <label for="university" class="col-sm-3 control-label">Start date</label>
+          <div class="col-sm-9">
+            <input type="date" id="birthDate" class="form-control">
+          </div>
+        </div>
+        <div class="form-group input-group">
+          <label for="inputZip" class="col-sm-3 control-label">End date</label>
+          <div class="col-sm-9">
+            <input type="date" id="birthDate" class="form-control">
+          </div>
+        </div>
+        <div class="form-group input-group">
+          <label for="Skills" class="col-sm-3 control-label">Skills</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="skills" placeholder="Please enter your skills">
+          </div>
+        </div>
+       
+      <div class="form-group input-group">
+      <button type="submit" class="btn btn-primary btn-block">Register</button>
+    </div>
+ 
+    <div class="text-center">
+     <!-- Social register -->
+     <p>or sign up with:</p>
+        
+     <a type="button" class="btn-floating btn-fb btn-lg waves-effect waves-light">
+       <i class="fab fa-facebook-f"></i>
+     </a>
+     <a type="button" class="btn-floating btn-tw btn-lg waves-effect waves-light">
+       <i class="fab fa-twitter"></i>
+     </a>
+     <a type="button" class="btn-floating btn-li btn-lg waves-effect waves-light">
+       <i class="fab fa-linkedin-in"></i>
+     </a>
+     <a type="button" class="btn-floating btn-git btn-lg waves-effect waves-light">
+       <i class="fab fa-github"></i>
+     </a>
+
+     <hr>
+
+     <!-- Terms of service -->
+     <p>By clicking
+       <em>Sign up</em> you agree to our
+       <a href="" target="_blank">terms of service</a>
+
+   </p>
+   </div>
+    </form> <!-- /form -->
+  </div> <!-- ./container -->
+<br<br><br>
+</body>
+
+</html>
